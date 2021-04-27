@@ -1,0 +1,40 @@
+{% load humanize %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>How to Use Humanize Tags in Django</title>
+</head>
+<body>
+<h2><u>Humanize Template Filters</u></h2>
+<h3>1) apnumber</h3>
+<p>{{ ap_first }} becomes {{ ap_first | apnumber }}</p>
+<p>{{ ap_second }} becomes {{ ap_second | apnumber }}</p>
+<hr>
+<h3>2) intcomma</h3>
+<p>{{ comma_first }} becomes {{ comma_first | intcomma }}</p>
+<p>{{ comma_second }} becomes {{ comma_second | intcomma }}</p>
+<hr>
+<h3>3) intword</h3>
+<p>{{ word_first }} becomes {{ word_first | intword }}</p>
+<p>{{ word_second }} becomes {{ word_second | intword }}</p>
+<hr>
+<h3>4) naturalday</h3>
+<b>Current time is: {{ current_time }}</b>
+<p>{{ day_first }} becomes {{ day_first | naturalday }}</p>
+<p>{{ day_second }} becomes {{ day_second | naturalday }}</p>
+<p>{{ day_third }} becomes {{ day_third | naturalday }}</p>
+<hr>
+<h3>5) naturaltime</h3>
+<b>Current time is: {{ current_time }}</b>
+<p>{{ time_first }} becomes {{ time_first | naturaltime }}</p>
+<p>{{ time_second }} becomes {{ time_second | naturaltime }}</p>
+<hr>
+<h3>6) ordinal</h3>
+<p>{{ ord_first }} becomes {{ ord_first | ordinal }}</p>
+<p>{{ ord_second }} becomes {{ ord_second | ordinal }}</p>
+<hr>
+
+
+</body>
+</html>
