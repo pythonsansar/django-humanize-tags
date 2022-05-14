@@ -4,7 +4,7 @@ __This is the simple example for the project discussed in the blog post: [How to
 
 ## To run this project follow these steps:
 ```javascript
-git clone https://github.com/thecodefires/django-humanize-tags.git
+git clone https://github.com/pythonsansar/django-humanize-tags.git
 ```
 ```python
 pip install -r requirements.txt
