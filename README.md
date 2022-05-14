@@ -16,4 +16,4 @@ python manage.py migrate
 python manage.py runserver
 ```
 ## Output
-![https://codefires.com/how-use-humanize-tags-django/](static/img/output-of-django-humanize-template-filters.gif)
+![https://pythonsansar.com/how-use-humanize-tags-django/](static/img/output-of-django-humanize-template-filters.gif)
