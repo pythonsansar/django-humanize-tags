@@ -1,6 +1,6 @@
 # Demonstration of Humanize Tags in Django
 __This is the simple example for the project discussed in the blog post: [How to Use Humanize Tags in Django
-](https://codefires.com/how-use-humanize-tags-django/)__
+](https://pythonsansar.com/how-use-humanize-tags-django/)__
 
 ## To run this project follow these steps:
 ```javascript
